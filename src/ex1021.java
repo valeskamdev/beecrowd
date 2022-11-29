@@ -59,10 +59,8 @@ public class ex1021 {
         System.out.println((int) vinteCincoCentavos + " moeda(s) de R$ 0.25");
         System.out.println((int) dezCentavos + " moeda(s) de R$ 0.10");
         System.out.println((int) cincoCentavos + " moeda(s) de R$ 0.05");
-        System.out.printf("%.0f moeda(s) de R$ 0.01", umCentavo);
+        System.out.printf("%.0f moeda(s) de R$ 0.01\n", umCentavo);
 
         scanner.close();
-
-        //TODO site nao carrega se esta certo ou nao
     }
 }
